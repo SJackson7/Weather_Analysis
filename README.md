@@ -1,6 +1,6 @@
 ***Please note: If you are using Dark Mode, the graph texts may not show properly. 
 
-## Weather Analysis and Ideal Vacation Locations
+## Weather Analysis
 
 For the weather analysis, 594 cities from around the world were selected where I examined the following relationships to the city's latitude:
 * Temperature (°F)
@@ -60,7 +60,18 @@ This third chart shows northern latittudes versus cloud cover.
 This third chart shows southern latittudes versus cloud cover.
 ![LATvCLD_southern](https://user-images.githubusercontent.com/104914008/181103573-ab5b03f0-115c-4864-911c-5d1fb9159dc6.png)
 
-All other chart images not shown above are saved to this repository in the 'images' folder.  
+All other chart images not shown above are saved to this repository in the 'images' folder. This concludes the weather analysis portion.
+
+## Ideal Vacation Locations
+
+For the ideal vacation locations, the same weather data for the 594 cities was compared to "ideal weather":
+* Maximum temperature no more than 80°F but not less than 70°F
+* Wind speed less than 10 mph
+* 0% cloud cover
+
+Using Google APIs, I generated a heatmap and location markers (with tags shwoing hotel name, city and country)for hotels in cities that were within these parameters and within 5km of each city's coordinates. The result was 18 hotels, a majority of which are in the United States; there are two in Hawaii that overlap due to the map scale. This could change depending on current weather and cities selected from the weather analysis portion. Below are the results.
+
+![hotels](https://user-images.githubusercontent.com/104914008/181104608-08fb9299-8b67-4b67-9cc5-805231633b3e.png)
 
 <b>Files included</b>
 * city_weather_csv for city weather data
