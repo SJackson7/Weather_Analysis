@@ -71,7 +71,7 @@ For the ideal vacation locations, the same weather data for the 594 cities was c
 
 Using Google APIs, I generated a heatmap and location markers (with tags showing hotel name, city and country) for hotels in cities that were within these parameters and within 5km of each city's coordinates. The result was 18 hotels, a majority of which are in the United States. I then took the first 10 hotel locations; there are two in Hawaii that overlap due to the map scale. This could change depending on current weather and cities selected from the weather analysis part. Below are the results.
 
-![hotels](https://user-images.githubusercontent.com/104914008/181773294-b629b7f9-50c1-4c41-a6cd-690e781d21c5.png)
+![hotels](https://user-images.githubusercontent.com/104914008/181774109-63693eff-b9ad-47f8-9403-d848e3cf4b0f.png)
 
 <b>Files included</b>
 * city_weather_csv for city weather data
